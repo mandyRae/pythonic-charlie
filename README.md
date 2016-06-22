@@ -1,4 +1,4 @@
-# pythonic-charlie
+# pythonic-charlieplex
 Python class for controlling SparkFun 8x7 LED Array with the Raspberry Pi utilizing `RPi.GPIO`.
 
 This is a single-file class written in Python 3 for controlling the the SparkFun 8x7 LED Array 
@@ -24,7 +24,7 @@ easily paste it directly into your Python script.
 2. **Place the file charlie.py in the same directory as your script:** Placing the `charlie.py` file in within your script will 
 enable you to call `import charlie` in your code.
 
-3. **Copy charlie.py into directory `usr/lib/python2.7/dist-packages` and `usr/lib/python3/dist-packages`:** simply copy the
+3. **Copy `charlie.py` into directories `usr/lib/python2.7/dist-packages` and `usr/lib/python3/dist-packages`:** simply copy the
 `charlie.py` file into the Python dist-packages directories. Any script locally run on your Raspberry Pi will then be able to 
 `import charlie`.
 
