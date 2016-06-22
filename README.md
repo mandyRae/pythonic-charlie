@@ -11,6 +11,7 @@ For instructions on how to wire your LED array and see how charlieplexing works,
 #Repository Contents
 * **charlie.py** - source file for class `Charlie`
 * **/examples** - code examples utilizing `charlie.py` (currently being expanded)
+* **README.md** - this file
 
 #Documentation
 
@@ -21,7 +22,7 @@ Here are three ways to convienently get pythonic-charlie usable on your Raspberr
 1. **Copy and paste contents of charlie.py into existing code:** the class `Charlie` is short enough that you can 
 easily paste it directly into your Python script. 
 
-2. **Place the file charlie.py in the same directory as your script:** Placing the `charlie.py` file in within your script will 
+2. **Place the file `charlie.py` in the same directory as your script:** Placing the `charlie.py` file in within your script will 
 enable you to call `import charlie` in your code.
 
 3. **Copy `charlie.py` into directories `usr/lib/python2.7/dist-packages` and `usr/lib/python3/dist-packages`:** simply copy the
