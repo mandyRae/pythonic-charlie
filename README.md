@@ -6,8 +6,6 @@ This is a single-file class written in Python 3 for controlling the the SparkFun
 
 V0.0.0 is fully compatiable with the latest versions of both Python 2 and Python 3. It has been tested on the latest version of Raspbian Jesse, but should work with any Raspberry Pi Linux distro with `RPi.GPIO` installed.  
 
-For instructions on how to wire your LED array and see how charlieplexing works, see SparkFun's excellent hookup guide to the LED array here: https://learn.sparkfun.com/tutorials/sparkfun-led-array-8x7-hookup-guide
-
 #Repository Contents
 * **charlie.py** - source file for class `Charlie`
 * **/examples** - code examples utilizing `charlie.py` (currently being expanded)
@@ -35,6 +33,8 @@ enable you to call `import charlie` in your code.
 
 In order to use the array with the Raspberry Pi, connect pins A-H to the GPIO. There's no need to add current-impeding resistors, as the LED array has them built in! An example layout on a breadboard is shown below. 
 ![example-wiring.png](example-wiring.PNG)
+
+For more information about how charlieplexing works and how to wire your LED array, see SparkFun's excellent hookup guide to the LED array here: https://learn.sparkfun.com/tutorials/sparkfun-led-array-8x7-hookup-guide
 
 ###Help on `charlie.py`
 
