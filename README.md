@@ -1,5 +1,5 @@
 # pythonic-charlieplex
-Python class for controlling SparkFun 8x7 LED Array with the Raspberry Pi utilizing `RPi.GPIO`.
+Python class for controlling SparkFun 8x7 LED Array with the Raspberry Pi utilizing `RPi.GPIO` (https://pypi.python.org/pypi/RPi.GPIO).
 
 This is a single-file class written in Python 3 for controlling the the SparkFun 8x7 LED Array 
 (https://www.sparkfun.com/products/13795) that is controlled by eight charlieplexed pins. 
