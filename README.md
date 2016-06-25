@@ -12,6 +12,8 @@ For instructions on how to wire your LED array and see how charlieplexing works,
 * **charlie.py** - source file for class `Charlie`
 * **/examples** - code examples utilizing `charlie.py` (currently being expanded)
 * **README.md** - this file
+* **LICENSE.txt** - license information
+* **example-wiring.png** - image of wiring to the Raspberry Pi
 
 #Documentation
 
