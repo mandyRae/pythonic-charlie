@@ -17,9 +17,9 @@ For instructions on how to wire your LED array and see how charlieplexing works,
 
 ###Installing
 
-Here are three ways to convienently get pythonic-charlie usable on your Raspberry Pi:
+Here are three ways to convienently get pythonic-charlieplex usable on your Raspberry Pi:
 
-1. **Copy and paste contents of charlie.py into existing code:** the class `Charlie` is short enough that you can 
+1. **Copy and paste contents of `charlie.py` into existing code:** the class `Charlie` is short enough that you can 
 easily paste it directly into your Python script. 
 
 2. **Place the file `charlie.py` in the same directory as your script:** Placing the `charlie.py` file in within your script will 
@@ -29,9 +29,16 @@ enable you to call `import charlie` in your code.
 `charlie.py` file into the Python dist-packages directories. Any script locally run on your Raspberry Pi will then be able to 
 `import charlie`.
 
+###Wiring
+
+In order to use the array with the Raspberry Pi, connect pins A-H to the GPIO. There's no need to add current-impeding resistors, as the LED array has them built in! An example layout on a breadboard is shown below. 
+![example-wiring.png](example-wiring.PNG)
+
 ###Help on `charlie.py`
-For help on the usage of `charlie.py`, see `/examples`. For documentation on the methods of the `Charlie` class once `charlie.py` is installed, type `import charlie`
-and then `help(Charlie)` into the Python shell.
+
+For help on the usage of `charlie.py`, see `/examples`. For documentation on the methods of the `Charlie` class once `charlie.py` is installed, type `import charlie` and then `help(Charlie)` into the Python shell.
+
+See `/examples` to see usage of `charlie.py`.
 
 #License
 
