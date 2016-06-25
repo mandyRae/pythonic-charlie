@@ -1,6 +1,6 @@
 '''
 charlie.py
----class for controlling SparkFun 8x7 LED Array with the Raspberry Pi
+---class for controlling charlieplexed SparkFun 8x7 LED Array with the Raspberry Pi
 
 Relies upon RPi.GPIO written by Ben Croston
 
