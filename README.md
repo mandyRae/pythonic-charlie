@@ -34,6 +34,7 @@ For help on the usage of `charlie.py`, see `/examples`. For documentation on the
 and then `help(Charlie)` into the Python shell.
 
 #License
-This software is open source!
+
+This software is open source! Released under the MIT license. See LICENSE.txt for full details.
 
 Initial release: 18-Jun-2016
