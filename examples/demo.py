@@ -1,5 +1,5 @@
 '''
-# -------------PYTHONIC-CHARLIE-------------#
+# -----------PYTHONIC-CHARLIEPLEX-----------#
 #                  demo.py                  #
 #                                           #
 #    Demo of Python class for controlling   #
